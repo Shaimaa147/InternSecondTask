@@ -1,0 +1,15 @@
+{
+  "originHash" : "a9f672584a485c06297a05ab232597bcb9c7bd98f50d316d2cedba276c8ab412",
+  "pins" : [
+    {
+      "identity" : "utilitypackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Shaimaa147/UtilityPackage.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "425a75065349078b630fc655d17f3dd096201245"
+      }
+    }
+  ],
+  "version" : 3
+}

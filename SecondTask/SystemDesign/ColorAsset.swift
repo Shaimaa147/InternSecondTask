@@ -13,6 +13,8 @@ enum ColorAsset {
     case secondary
     case accent
     case background
+//    case newCyan
+//    case newLightGreen
     // Add more colors as needed
 }
 
@@ -27,6 +29,14 @@ extension ColorAsset {
             return UIColor(red: 0.9, green: 0.8, blue: 0.0, alpha: 1.0)
         case .background:
             return UIColor.white
+            
+//        case .newCyan:
+//            return UIColor(named: ColorAsset.newCyan ?? UIColor.black) ?? <#default value#>
+//
+//        case .newLightGreen:
+//            return UIColor()
         }
     }
 }
+
+//UIColor(named: "NavigationBarTitle") ?? UIColor.systemRed

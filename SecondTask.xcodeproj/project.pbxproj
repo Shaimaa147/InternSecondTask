@@ -14,6 +14,7 @@
 		B6508D9F2B972002007C75AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6508D9E2B972002007C75AB /* Assets.xcassets */; };
 		B6508DA22B972002007C75AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6508DA02B972002007C75AB /* LaunchScreen.storyboard */; };
 		B6508DAB2B972076007C75AB /* ColorAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6508DAA2B972076007C75AB /* ColorAsset.swift */; };
+		B6FEAFC32BA0E5020028B78F /* UtilityPackage in Frameworks */ = {isa = PBXBuildFile; productRef = B6FEAFC22BA0E5020028B78F /* UtilityPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FEAFC32BA0E5020028B78F /* UtilityPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +96,9 @@
 			dependencies = (
 			);
 			name = SecondTask;
+			packageProductDependencies = (
+				B6FEAFC22BA0E5020028B78F /* UtilityPackage */,
+			);
 			productName = SecondTask;
 			productReference = B6508D922B972000007C75AB /* SecondTask.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +127,9 @@
 				Base,
 			);
 			mainGroup = B6508D892B972000007C75AB;
+			packageReferences = (
+				B6FEAFC12BA0E5020028B78F /* XCRemoteSwiftPackageReference "UtilityPackage" */,
+			);
 			productRefGroup = B6508D932B972000007C75AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -370,6 +378,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6FEAFC12BA0E5020028B78F /* XCRemoteSwiftPackageReference "UtilityPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Shaimaa147/UtilityPackage.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6FEAFC22BA0E5020028B78F /* UtilityPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6FEAFC12BA0E5020028B78F /* XCRemoteSwiftPackageReference "UtilityPackage" */;
+			productName = UtilityPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B6508D8A2B972000007C75AB /* Project object */;
 }
